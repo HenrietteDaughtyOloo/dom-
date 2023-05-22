@@ -15,12 +15,20 @@ Add one more vegetable to the vegetables
 list .......................................
 */
 document.body.style.backgroundColor='silver'
+document.body.style.fontSize='20px'
+document.body.style.marginLeft='2%'
 
 document.getElementById('title').style.color='green'
 document.getElementById('title').style.textAlign = 'center'
+document.getElementById('title2').style.textAlign = 'center'
+document.getElementById('title').style.fontSize='30px'
+
+
 
 
 document.getElementById('heading3').style.textTransform = "uppercase";
+document.getElementById('heading3-2').style.textTransform = "uppercase";
+
 
 let addedFruit = document.createElement('li')
 addedFruit.innerHTML = 'Apple'
@@ -39,8 +47,10 @@ var anImage = document.createElement("img");
 anImage.src = "images/tomato.jpg";
 
 var src = document.getElementById("img1");
-anImage.style.width='50%';
-anImage.style.mar
+anImage.style.width='20%';
+anImage.style.height='60%';
+anImage.style.marginLeft='50%';
+anImage.style.marginTop = '-25%';
 
 
 src.appendChild(anImage);
